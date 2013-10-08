@@ -1,7 +1,7 @@
 package com.example.myfragment;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 
 /** 
  * 文件名称:   FragmentTest.java 

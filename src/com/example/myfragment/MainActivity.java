@@ -13,7 +13,7 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle arg0) {
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.layout_main_test);
 		final BottomBar bottomBar = (BottomBar)findViewById(R.id.ll_bottom_bar);
         bottomBar.setOnItemChangedListener(new OnItemChangedListener() 
         {
@@ -21,7 +21,6 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onItemChanged(int index) 
 			{
-
 				showDetails(index);
 			}
 		});
